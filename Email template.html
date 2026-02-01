@@ -1,0 +1,876 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="initial-scale=1.0" style="-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700" rel="stylesheet" type="text/css">
+<title>*|MC:SUBJECT|*</title>
+
+<style type="text/css">
+		#outlook a{
+			padding:0;
+		}
+		.ReadMsgBody{
+			width:100%;
+		}
+		.ExternalClass{
+			width:100%;
+		}
+		.ExternalClass,.ExternalClass p,.ExternalClass span,.ExternalClass font,.ExternalClass td,.ExternalClass div{
+			line-height:100%;
+		}
+		body{
+			-webkit-text-size-adjust:100%;
+			-ms-text-size-adjust:100%;
+			-webkit-font-smoothing:antialiased;
+			margin:0 !important;
+			padding:0 !important;
+			width:100% !important;
+		}
+		body,table,td,p,a,li,blockquote{
+			-webkit-text-size-adjust:100%;
+			-ms-text-size-adjust:100%;
+		}
+		table,td{
+			mso-table-lspace:0pt;
+			mso-table-rspace:0pt;
+		}
+		img{
+			-ms-interpolation-mode:bicubic;
+		}
+		body{
+			margin:0;
+			padding:0;
+		}
+		img{
+			border:0;
+			height:auto;
+			line-height:100%;
+			outline:none;
+			text-decoration:none;
+		}
+		table{
+			border-collapse:collapse !important;
+		}
+		body,#bodyTable,#bodyCell{
+			height:100% !important;
+			margin:0;
+			padding:0;
+			width:100% !important;
+		}
+		#bodyCell{
+			padding:20px;
+		}
+	/*
+	@tab Page
+	@section background style
+	@tip Set the background color and top border for your email. You may want to choose colors that match your company's branding.
+	@theme page
+	*/
+		body,#bodyTable{
+			/*@editable*/background-color:#FFFFFF;
+		}
+	/*
+	@tab Page
+	@section email Background
+	@tip Set the Background for your email.
+	*/
+		#templateContainer{
+			/*@editable*/background-color:#ffffff;
+			/*@tab Page
+@section heading 1
+@tip Set the styling for all first-level headings in your emails. These should be the largest of your headings.
+@style heading 1*/;:h1 {
+	/*@editable*/ color: #00abd9;
+			display:block;
+			/*@editable*/font-family:'Open Sans', Arial, Helvetica, sans-serif;
+			/*@editable*/font-size:25px;
+			/*@editable*/font-style:normal;
+			/*@editable*/font-weight:bold;
+			/*@editable*/line-height:100%;
+			/*@editable*/letter-spacing:normal;
+			margin-top:0;
+			margin-right:0;
+			margin-bottom:0;
+			margin-left:0;
+			/*@editable*/text-align:center;
+		}
+	/*
+	@tab Page
+	@section heading 2
+	@tip Set the styling for all second-level headings in your emails.
+	@style heading 2
+	*/
+		h2{
+			/*@editable*/color:#404040 !important;
+			display:block;
+			/*@editable*/font-family:'Open Sans', Arial, Helvetica, sans-serif;
+			/*@editable*/font-size:20px;
+			/*@editable*/font-style:normal;
+			/*@editable*/font-weight:bold;
+			/*@editable*/line-height:100%;
+			/*@editable*/letter-spacing:normal;
+			margin-top:0;
+			margin-right:0;
+			margin-bottom:10px;
+			margin-left:0;
+			/*@editable*/text-align:left;
+		}
+	/*
+	@tab Page
+	@section heading 3
+	@tip Set the styling for all third-level headings in your emails.
+	@style heading 3
+	*/
+		h3{
+			/*@editable*/color:#000000;
+			display:block;
+			/*@editable*/font-family:'Open Sans', Arial, Helvetica, sans-serif;
+			/*@editable*/font-size:16px;
+			/*@editable*/font-style:normal;
+			/*@editable*/font-weight:bold;
+			/*@editable*/line-height:100%;
+			/*@editable*/letter-spacing:normal;
+			/*@editable*/text-align:center;
+		}
+	/*
+	@tab Page
+	@section heading 4
+	@tip Set the styling for all fourth-level headings in your emails. These should be the smallest of your headings.
+	@style heading 4
+	*/
+		h4{
+			/*@editable*/color:#459f9c;
+			display:block;
+			/*@editable*/font-family:'Open Sans', Arial, Helvetica, sans-serif;
+			/*@editable*/font-size:14px;
+			/*@editable*/font-style:normal;
+			/*@editable*/font-weight:normal;
+			/*@editable*/line-height:100%;
+			/*@editable*/letter-spacing:normal;
+			margin-top:0;
+			margin-right:0;
+			margin-bottom:10px;
+			margin-left:0;
+			/*@editable*/text-align:center;
+		}
+	/*
+	@tab Header
+	@section preheader style
+	@tip Set the background color and bottom border for your email's preheader area.
+	@theme header
+	*/
+		#templatePreheader{
+			/*@editable*/background-color:#FFFFFF;
+		}
+	/*
+	@tab Header
+	@section preheader text
+	@tip Set the styling for your email's preheader text. Choose a size and color that is easy to read.
+	*/
+		.preheaderContent{
+			/*@editable*/color:#999999;
+			/*@editable*/font-family:'Open Sans', Arial, Helvetica, sans-serif;
+			/*@editable*/font-size:11px;
+			/*@editable*/line-height:125%;
+			/*@editable*/text-align:center;
+		}
+	/*
+	@tab Header
+	@section preheader link
+	@tip Set the styling for your email's preheader links. Choose a color that helps them stand out from your text.
+	*/
+		.preheaderContent a:link,.preheaderContent a:visited,.preheaderContent a .yshortcuts{
+			/*@editable*/color:#999999;
+			/*@editable*/font-weight:normal;
+			/*@editable*/text-decoration:none;
+		}
+	/*
+	@tab Header
+	@section header style
+	@tip Set the background color and borders for your email's header area.
+	@theme header
+	*/
+		#templateHeader{
+			/*@editable*/background-color:#FFFFFF;
+		}
+	/*
+	@tab Header
+	@section header Title
+	@tip Set the styling for your email's header text. Choose a size and color that is easy to read.
+	*/
+		.headerTitle{
+			/*@editable*/color:#77ccd0;
+			/*@editable*/font-family:'Open Sans', Arial, Helvetica, sans-serif;
+			/*@editable*/font-size:24px;
+			/*@editable*/line-height:120%;
+			/*@editable*/text-align:center;
+			/*@editable*/font-weight:normal;
+		}
+	/*
+	@tab Header
+	@section header link
+	@tip Set the styling for your email's header links. Choose a color that helps them stand out from your text.
+	*/
+		.headerContent a:link,.headerContent a:visited,.headerContent a .yshortcuts{
+			/*@editable*/color:#77ccd0;
+			/*@editable*/font-weight:normal;
+		}
+	/*
+	@tab Header
+	@section header text
+	@tip Set the styling for your email's header text. Choose a size and color that is easy to read.
+	*/
+		.headerContent{
+			/*@editable*/color:#415553;
+			/*@editable*/font-family:'Open Sans', Arial, Helvetica, sans-serif;
+			/*@editable*/font-size:14px;
+			/*@editable*/line-height:120%;
+			/*@editable*/text-align:center;
+			/*@editable*/font-weight:normal;
+		}
+	/*
+	@tab Header
+	@section header link
+	@tip Set the styling for your email's header links. Choose a color that helps them stand out from your text.
+	*/
+		.headerContent a:link,.headerContent a:visited,.headerContent a .yshortcuts{
+			/*@editable*/color:#77ccd0;
+			/*@editable*/font-weight:normal;
+		}
+	/*
+	@tab Body
+	@section body style
+	@tip Set the background color and borders for your email's body area.
+	*/
+		#templateBody{
+			/*@editable*/background-color:#FFFFFF;
+		}
+	/*
+	@tab Body
+	@section body Title
+	@tip Set the styling for your email's main content text. Choose a size and color that is easy to read.
+	@theme main
+	*/
+		.bodyTitle{
+			/*@editable*/color:#3b2609;
+			/*@editable*/font-family:'Open Sans', Arial, Helvetica, sans-serif;
+			/*@editable*/font-size:18px;
+			/*@editable*/line-height:120%;
+			/*@editable*/text-align:center;
+			/*@editable*/font-weight:bold;
+		}
+	/*
+	@tab Body
+	@section body text
+	@tip Set the styling for your email's main content text. Choose a size and color that is easy to read.
+	@theme main
+	*/
+		.bodyContent{
+			/*@editable*/color:#3b2609;
+			/*@editable*/font-family:'Open Sans', Arial, Helvetica, sans-serif;
+			/*@editable*/font-size:14px;
+			/*@editable*/line-height:120%;
+			/*@editable*/text-align:center;
+			/*@editable*/font-weight:normal;
+		}
+	/*
+	@tab Body
+	@section body link
+	@tip Set the styling for your email's main content links. Choose a color that helps them stand out from your text.
+	*/
+		.bodyContent a:link,.bodyContent a:visited,.bodyContent a .yshortcuts{
+			/*@editable*/color:#3b2609;
+			/*@editable*/font-weight:normal;
+			/*@editable*/text-decoration:none;
+		}
+	/*
+	@tab Body
+	@section content Title
+	@tip Set the styling for your email's main content text. Choose a size and color that is easy to read.
+	@theme main
+	*/
+		.contentTitle{
+			/*@editable*/color:#3b2609;
+			/*@editable*/font-family:'Open Sans', Arial, Helvetica, sans-serif;
+			/*@editable*/font-size:18px;
+			/*@editable*/line-height:120%;
+			/*@editable*/text-align:left;
+			/*@editable*/font-weight:normal;
+		}
+	/*
+	@tab Body
+	@section content text
+	@tip Set the styling for your email's main content text. Choose a size and color that is easy to read.
+	@theme main
+	*/
+		.contentText{
+			/*@editable*/color:#3b2609;
+			/*@editable*/font-family:'Open Sans', Arial, Helvetica, sans-serif;
+			/*@editable*/font-size:12px;
+			/*@editable*/line-height:120%;
+			/*@editable*/text-align:left;
+			/*@editable*/font-weight:normal;
+		}
+	/*
+	@tab Body
+	@section body link
+	@tip Set the styling for your email's main content links. Choose a color that helps them stand out from your text.
+	*/
+		.contentText a:link,.contentText a:visited,.contentText a .yshortcuts{
+			/*@editable*/color:#3b2609;
+			/*@editable*/font-weight:normal;
+			/*@editable*/text-decoration:none;
+		}
+		.templateColumnContainer{
+			max-width:570px;
+		}
+	/*
+	@tab Columns
+	@section column style
+	@tip Set the background color and borders for your email's column area.
+	*/
+		#templateColumns{
+			/*@editable*/background-color:#f9ab08;
+		}
+	/*
+	@tab Columns
+	@section left column text
+	@tip Set the styling for your email's left column content text. Choose a size and color that is easy to read.
+	*/
+		.leftColumnContent{
+			/*@editable*/color:#FFFFFF;
+			/*@editable*/font-family:'Open Sans', Arial, Helvetica, sans-serif;
+			/*@editable*/font-size:14px;
+			/*@editable*/line-height:150%;
+			/*@editable*/text-align:center;
+		}
+	/*
+	@tab Columns
+	@section left column link
+	@tip Set the styling for your email's left column content links. Choose a color that helps them stand out from your text.
+	*/
+		.leftColumnContent a:link,.leftColumnContent a:visited,.leftColumnContent a .yshortcuts{
+			/*@editable*/color:#FFFFFF;
+			/*@editable*/font-weight:normal;
+			/*@editable*/text-decoration:underline;
+		}
+	/*
+	@tab Columns
+	@section left column text
+	@tip Set the styling for your email's left column content text. Choose a size and color that is easy to read.
+	*/
+		.leftColumnContent2{
+			/*@editable*/color:#FFFFFF;
+			/*@editable*/font-family:'Open Sans', Arial, Helvetica, sans-serif;
+			/*@editable*/font-size:14px;
+			/*@editable*/line-height:150%;
+			background-color:#f9ab08;
+			/*@editable*/text-align:center;
+			border-left:10px #FFFFFF solid;
+		}
+	/*
+	@tab Columns
+	@section left column link
+	@tip Set the styling for your email's left column content links. Choose a color that helps them stand out from your text.
+	*/
+		.leftColumnContent2 a:link,.leftColumnContent2 a:visited,.leftColumnContent2 a .yshortcuts{
+			/*@editable*/color:#FFFFFF;
+			/*@editable*/font-weight:normal;
+			/*@editable*/text-decoration:underline;
+		}
+	/*
+	@tab Columns
+	@section center column text
+	@tip Set the styling for your email's center column content text. Choose a size and color that is easy to read.
+	*/
+		.centerColumnContent{
+			/*@editable*/color:#FFFFFF;
+			/*@editable*/font-family:'Open Sans', Arial, Helvetica, sans-serif;
+			/*@editable*/font-size:12px;
+			/*@editable*/line-height:100%;
+			background-color:#f9ab08;
+			/*@editable*/text-align:left;
+		}
+	/*
+	@tab Columns
+	@section center column text
+	@tip Set the styling for your email's center column content text. Choose a size and color that is easy to read.
+	*/
+		.centerColumnContenthead{
+			/*@editable*/color:#FFFFFF;
+			/*@editable*/font-family:'Open Sans', Arial, Helvetica, sans-serif;
+			/*@editable*/font-size:16px;
+			/*@editable*/line-height:100%;
+			background-color:#f9ab08;
+			/*@editable*/text-align:center;
+		}
+	/*
+	@tab Columns
+	@section center column link
+	@tip Set the styling for your email's center column content links. Choose a color that helps them stand out from your text.
+	*/
+		.centerColumnContent a:link,.centerColumnContent a:visited,.centerColumnContent a .yshortcuts{
+			/*@editable*/color:#FFFFFF;
+			/*@editable*/font-weight:normal;
+			/*@editable*/text-decoration:underline;
+		}
+	/*
+	@tab Columns
+	@section right column text
+	@tip Set the styling for your email's right column content text. Choose a size and color that is easy to read.
+	*/
+		.rightColumnContent{
+			/*@editable*/color:#FFFFFF;
+			/*@editable*/font-family:'Open Sans', Arial, Helvetica, sans-serif;
+			/*@editable*/font-size:14px;
+			/*@editable*/line-height:150%;
+			background-color:#c4dbfd;
+			padding-top:5px;
+			padding-right:5px;
+			padding-bottom:5px;
+			padding-left:5px;
+			/*@editable*/text-align:center;
+		}
+	/*
+	@tab Columns
+	@section right column link
+	@tip Set the styling for your email's right column content links. Choose a color that helps them stand out from your text.
+	*/
+		.rightColumnContent a:link,.rightColumnContent a:visited,.rightColumnContent a .yshortcuts{
+			/*@editable*/color:#FFFFFF;
+			/*@editable*/font-weight:normal;
+			/*@editable*/text-decoration:underline;
+		}
+		.leftColumnContent img,.rightColumnContent img{
+			display:inline;
+			height:auto;
+			max-width:280px;
+		}
+	/*
+	@tab Footer
+	@section footer style
+	@tip Set the background color and borders for your email's footer area.
+	@theme footer
+	*/
+		#templateFooter{
+			/*@editable*/background-color:#77ccd0;
+		}
+	/*
+	@tab Footer
+	@section footer text
+	@tip Set the styling for your email's footer text. Choose a size and color that is easy to read.
+	@theme footer
+	*/
+		.footerContent{
+			/*@editable*/color:#FFFFFF;
+			/*@editable*/font-family:'Open Sans', Arial, Helvetica, sans-serif;
+			/*@editable*/font-size:12px;
+			/*@editable*/line-height:120%;
+			/*@editable*/text-align:left;
+			/*@editable*/background-color:#77ccd0;
+		}
+	/*
+	@tab Footer
+	@section footer link
+	@tip Set the styling for your email's footer links. Choose a color that helps them stand out from your text.
+	*/
+		.footerContent a:link,.footerContent a:visited,.footerContent a .yshortcuts,.footerContent a span{
+			/*@editable*/color:#FFFFFF;
+			/*@editable*/font-weight:normal;
+			/*@editable*/text-decoration:none;
+		}
+		.footerTd a a:link,.footerTd a:visited,.footerTd a .yshortcuts,.footerTd a span{
+			/*@editable*/color:#979797;
+			/*@editable*/font-weight:normal;
+			/*@editable*/text-decoration:none;
+		}
+	/*
+	@tab Body
+	@section Header Background Image
+	@tip Set the styling for your email's main content text. Choose a size and color that is easy to read.
+	@theme main
+	*/
+		.bodyHeaderBG{
+			/*@editable*/background-image:url(https://gallery.mailchimp.com/b6c930535dc57b216d095bf24/images/edf483d5-72a9-449b-a17c-bff75e553be0.jpg);
+			/*@editable*/background-color:#FFFFFF;
+			/*@editable*/background-repeat:no-repeat !important;
+			-webkit-background-size:cover;
+			-moz-background-size:cover;
+			-o-background-size:cover;
+			background-size:cover;
+			background-position:center center;
+			/*@editable*/max-width:800px;
+			/*@editable*/max-height:618px;
+		}
+	@media only screen and (max-width: 599px){
+		body{
+			width:auto !important;
+		}
+
+}	@media only screen and (max-width: 599px){
+		a{
+			text-decoration:none;
+		}
+
+}	@media only screen and (max-width: 599px){
+		td[class=hide]{
+			width:0 !important;
+			display:none;
+		}
+
+}	@media only screen and (max-width: 599px){
+		img[class=images]{
+			width:100% !important;
+			display:block !important;
+			height:auto !important;
+		}
+
+}	@media only screen and (max-width: 599px){
+		table[class=main],td[class=main]{
+			width:100% !important;
+			display:block !important;
+		}
+
+}	@media only screen and (max-width: 599px){
+		table[class=maintemplate]{
+			max-width:630px !important;
+			width:100% !important;
+			display:block !important;
+			background-color:#FFFFFF;
+		}
+
+}	@media only screen and (max-width: 599px){
+		td[class=test-center]{
+			text-align:center !important;
+		}
+
+}	@media only screen and (max-width: 599px){
+		td[class=box1]{
+			width:100% !important;
+			display:block !important;
+			max-width:250px !important;
+			float:none !important;
+			margin:0 auto !important;
+			padding-bottom:15px !important;
+		}
+
+}	@media only screen and (max-width: 599px){
+		td[class=box2]{
+			width:100% !important;
+			display:block !important;
+			max-width:250px !important;
+			float:none !important;
+			margin:0 auto !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		body{
+			width:auto !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		a{
+			text-decoration:none;
+		}
+
+}	@media only screen and (max-width: 480px){
+		td[class=hide]{
+			width:0 !important;
+			display:none;
+		}
+
+}	@media only screen and (max-width: 480px){
+		img[class=images]{
+			width:100% !important;
+			display:block !important;
+			height:auto !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		table[class=main],td[class=main]{
+			width:100% !important;
+			display:block !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		table[class=maintemplate]{
+			max-width:630px !important;
+			width:100% !important;
+			display:block !important;
+			background-color:#FFFFFF;
+		}
+
+}	@media only screen and (max-width: 480px){
+		td[class=test-center]{
+			text-align:center !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		td[class=box1]{
+			width:100% !important;
+			display:block !important;
+			max-width:250px !important;
+			float:none !important;
+			margin:0 auto !important;
+			padding-bottom:15px !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		td[class=box2]{
+			width:100% !important;
+			display:block !important;
+			max-width:250px !important;
+			float:none !important;
+			margin:0 auto !important;
+		}
+
+}	@media only screen and (max-width: 320px){
+		body{
+			width:auto !important;
+		}
+
+}	@media only screen and (max-width: 320px){
+		a{
+			text-decoration:none;
+		}
+
+}	@media only screen and (max-width: 320px){
+		td[class=hide]{
+			width:0 !important;
+			display:none;
+		}
+
+}	@media only screen and (max-width: 320px){
+		img[class=images]{
+			width:100% !important;
+			display:block !important;
+			height:auto !important;
+		}
+
+}	@media only screen and (max-width: 320px){
+		table[class=main],td[class=main]{
+			width:100% !important;
+			display:block !important;
+		}
+
+}	@media only screen and (max-width: 320px){
+		table[class=maintemplate]{
+			max-width:630px !important;
+			width:100% !important;
+			display:block !important;
+			background-color:#FFFFFF;
+		}
+
+}	@media only screen and (max-width: 320px){
+		td[class=test-center]{
+			text-align:center !important;
+		}
+
+}	@media only screen and (max-width: 320px){
+		td[class=box1]{
+			width:100% !important;
+			display:block !important;
+			max-width:250px !important;
+			float:none !important;
+			margin:0 auto !important;
+			padding-bottom:15px !important;
+		}
+
+}	@media only screen and (max-width: 320px){
+		td[class=box2]{
+			width:100% !important;
+			display:block !important;
+			max-width:250px !important;
+			float:none !important;
+			margin:0 auto !important;
+		}
+
+}</style></head>
+<body leftmargin="0" marginwidth="0" topmargin="0" marginheight="0" offset="0" style="font-family: Arial, Helvetica, sans-serif;">
+<center>
+  <table width="100%" border="0" cellspacing="0" cellpadding="0" id="bodyTable" class="main" style="font-family:Arial, Helvetica, sans-serif;">
+    <tr>
+      <td valign="top"><table width="630" border="0" cellspacing="0" cellpadding="0" align="center" bgcolor="#FFFFFF" style="background-color:#FFFFFF;font-family: Arial, Helvetica, sans-serif;" class="maintemplate">
+          <tr>
+            <td valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                  <td valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+                        <td valign="top" background="https://gallery.mailchimp.com/3ac161a09ec4fd64736cfc5ac/images/11f22ce9-b00a-4e06-bbb8-34f515272229.jpg" style="background-image:url(https://gallery.mailchimp.com/3ac161a09ec4fd64736cfc5ac/images/11f22ce9-b00a-4e06-bbb8-34f515272229.jpg); background-position:top left; background-repeat:no-repeat; background-color:#FFFFFF; background-size:100%;"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                            <tr>
+                              <td width="15" style="font-size:0 !important; line-height:0 !important;"></td>
+                              <td valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                  <tr>
+                                    <td height="25" style="font-size:0 !important; line-height:0 !important;"></td>
+                                  </tr>
+                                  <tr>
+                                    <td align="center" valign="middle" mc:edit="logo1"><a href="http://www.wildculture.com/?utm_source=brevo&utm_campaign=Wild Culture Sunday Edition April 19 2020&utm_medium=email" target="_blank"><img alt="Logo" class="images" src="images/JWC Letters.jpg" style=" max-width:554px; display:inline-block; font-size:0px; line-height:0px; border:0px;" width="554"></a></td>
+                                  </tr>
+                                </table></td>
+                              <td width="15" style="font-size:0 !important; line-height:0 !important;"></td>
+                            </tr>
+                          </table></td>
+                      </tr>
+                    </table></td>
+                </tr>
+                <tr>
+                  <td valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+                        <td width="15" style="font-size:0 !important; line-height:0 !important;"></td>
+                        <td valign="top" align="center" style="font-family: Arial, Helvetica, sans-serif; font-size:28px; line-height:26px; color:#000000; text-transform:uppercase; text-align:center;" mc:edit="logotext"><span style="color:#808080"><span style="font-size:14px"><span style="font-family:verdana,geneva,sans-serif"><span style="line-height:34px">The Journal of Wild Culture</span></span></span></span><br>
+<span style="color:#996666"><strong>S</strong></span><span style="color:#FF8C00"><strong>U</strong></span><span style="color:#B22222"><strong>N</strong></span><span style="color:#DAA520"><strong>D</strong></span><span style="color:#FF8C00"><strong>A</strong></span><span style="color:#A52A2A"><strong>Y</strong></span><span style="color:#8B4513"><strong> </strong></span><span style="color:#B22222"><strong>E</strong></span><span style="color:#800000"><strong>D</strong></span><span style="color:#FF0000"><strong>I</strong></span><span style="color:#DAA520"><strong>T</strong></span><span style="color:#B22222"><strong>I</strong></span><span style="color:#996666"><strong>O</strong></span><span style="color:#FF8C00"><strong>N</strong></span><br>
+<span style="color:#808080"><span style="font-size:18px">April 19, 2020</span></span></td>
+                        <td width="15" style="font-size:0 !important; line-height:0 !important;"></td>
+                      </tr>
+                    </table></td>
+                </tr>
+                <tr>
+                  <td height="45" style="font-size:0 !important; line-height:0 !important;"></td>
+                </tr>
+                <tr>
+                  <td valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+                        <td valign="top" style="background-image:url(images/W-CULTURE-ICON-LIGHT-GREEN.png); background-repeat:no-repeat; background-position:center;"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                            <tr>
+                              <td valign="top" width="100%" style="padding: 50px;"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                  <tr mc:repeatable>
+                                    <td valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                        <tr>
+                                          <td valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                              <tr>
+                                                <td valign="top" class="box1" width="250"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                    <tr>
+                                                      <td valign="top" align="right" style="font-family: Arial, Helvetica, sans-serif; font-size:22px; line-height:20px; color:#000000; text-transform:uppercase; text-align:right;" class="test-center" mc:edit="cont01"><p><span style="font-size:22px"><span style="font-family:tahoma,verdana,segoe,sans-serif"><strong>In Lockdown</strong><br>
+with special needs</span></span></p>
+</td>
+                                                    </tr>
+                                                    <tr>
+                                                      <td height="5" style="font-size:0 !important; line-height:0 !important;"></td>
+                                                    </tr>
+                                                    <tr>
+                                                      <td valign="top" align="right" style="font-family: Arial, Helvetica, sans-serif; font-size:13px; line-height:16px; color:#000000; text-transform:none; text-align:right;" class="test-center" mc:edit="cont02"><p><span style="font-family:tahoma,verdana,segoe,sans-serif"><span style="font-size:18px">As they pull their weight against a global threat, some families who isolate together discover unexpected gifts. <strong>By L&eacute;a Hirschfeld.</strong></span></span></p>
+</td>
+                                                    </tr>
+                                                  </table></td>
+                                                <td width="20" style="font-size:0 !important; line-height:0 !important;" class="hide"></td>
+                                                <td valign="top" class="box2" width="250" align="left" mc:edit="cont03"><br>
+<a href="https://www.wildculture.com/article/lockdown-special-needs/1851?utm_source=brevo&utm_campaign=Wild Culture Sunday Edition April 19 2020&utm_medium=email"><img data-file-id="5613477" height="250" src="https://mcusercontent.com/3ac161a09ec4fd64736cfc5ac/images/8ab64555-f44b-499c-a1c6-18f543c796bc.jpg" style="border: 0px  ; width: 250px; height: 250px; margin: 0px;" width="250"></a></td>
+                                              </tr>
+                                            </table></td>
+                                        </tr>
+                                        <tr>
+                                          <td height="40" style="font-size:0 !important; line-height:0 !important;"></td>
+                                        </tr>
+                                      </table></td>
+                                  </tr>
+                                  <tr mc:repeatable>
+                                    <td valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                        <tr>
+                                          <td valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                              <tr>
+                                                <td valign="top" class="box1" width="250" align="right" mc:edit="cont04"><br>
+<a href="https://www.wildculture.com/article/freedom-virus/1850?utm_source=brevo&utm_campaign=Wild Culture Sunday Edition April 19 2020&utm_medium=email"><img data-file-id="5612581" height="249" src="https://mcusercontent.com/3ac161a09ec4fd64736cfc5ac/images/d187d285-61da-4251-a3ed-b20b96d5e7c2.png" style="border-image: none 100% / 1 / 0 stretch; width: 250px; height: 249px; margin: 0px;" width="250"></a></td>
+                                                <td width="20" style="font-size:0 !important; line-height:0 !important;" class="hide"></td>
+                                                <td valign="top" class="box2" width="250"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                    <tr>
+                                                      <td valign="top" align="left" style="font-family: Arial, Helvetica, sans-serif; font-size:20px; line-height:20px; color:#000000; text-transform:uppercase; text-align:left;" class="test-center" mc:edit="cont05"><p><span style="font-family:tahoma,verdana,segoe,sans-serif"><span style="font-size:22px">The <strong>Free</strong>dom<strong> </strong>Vir<strong>us</strong></span></span></p>
+</td>
+                                                    </tr>
+                                                    <tr>
+                                                      <td height="5" style="font-size:0 !important; line-height:0 !important;"></td>
+                                                    </tr>
+                                                    <tr>
+                                                      <td valign="top" align="left" style="font-family: Arial, Helvetica, sans-serif; font-size:13px; line-height:16px; color:#000000; text-transform:none; text-align:left;" class="test-center" mc:edit="cont06"><p><span style="font-family:tahoma,verdana,segoe,sans-serif"><span style="font-size:18px">From the Pilgrims forward, the idea of being independent above all preys upon the vulnerable. Can the current crisis seed a new pattern? <strong>By John Davis.</strong></span></span><br>
+&nbsp;</p>
+</td>
+                                                    </tr>
+                                                  </table></td>
+                                              </tr>
+                                            </table></td>
+                                        </tr>
+                                        <tr>
+                                          <td height="40" style="font-size:0 !important; line-height:0 !important;"></td>
+                                        </tr>
+                                      </table></td>
+                                  </tr>
+                                  <tr mc:repeatable>
+                                    <td valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                        <tr>
+                                          <td valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                              <tr>
+                                                <td valign="top" class="box1" width="250"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                    <tr>
+                                                      <td valign="top" align="right" style="font-family: Arial, Helvetica, sans-serif; font-size:22px; line-height:22px; color:#000000; text-transform:uppercase; text-align:right;" class="test-center" mc:edit="cont07"><div style="text-align: right;"><span style="font-size:22px"><span style="font-family:tahoma,verdana,segoe,sans-serif"><strong>economic SNAPSHOT &amp; PLAn</strong>, not from a politician</span></span></div>
+</td>
+                                                    </tr>
+                                                    <tr>
+                                                      <td height="5" style="font-size:0 !important; line-height:0 !important;"></td>
+                                                    </tr>
+                                                    <tr>
+                                                      <td valign="top" align="right" style="font-family: Arial, Helvetica, sans-serif; font-size:13px; line-height:16px; color:#000000; text-transform:none; text-align:right;" class="test-center" mc:edit="cont08"><p><span style="font-size:18px"><span style="font-family:tahoma,verdana,segoe,sans-serif">&quot;</span>Just as the health crisis hits vulnerable people hardest, the economic crisis hits vulnerable countries hardest.&quot; <span style="font-family:tahoma,verdana,segoe,sans-serif"><strong>By Kristalina Georgieva.</strong></span></span></p>
+</td>
+                                                    </tr>
+                                                  </table></td>
+                                                <td width="20" style="font-size:0 !important; line-height:0 !important;" class="hide"></td>
+                                                <td valign="top" class="box2" width="250" align="left" mc:edit="cont09"><a href="https://www.wildculture.com/article/economic-snapshot-plan-covid-crisis-not-politician/1852?utm_source=brevo&utm_campaign=Wild Culture Sunday Edition April 19 2020&utm_medium=email"><img data-file-id="5613485" height="250" src="https://mcusercontent.com/3ac161a09ec4fd64736cfc5ac/images/09fd2753-76ee-424c-ac8c-64e0b7899bcc.png" style="border-image: none 100% / 1 / 0 stretch; width: 250px; height: 250px; margin: 0px;" width="250"></a></td>
+                                              </tr>
+                                            </table></td>
+                                        </tr>
+                                        <tr>
+                                          <td height="40" style="font-size:0 !important; line-height:0 !important;"></td>
+                                        </tr>
+                                      </table></td>
+                                  </tr>
+                                  <tr>
+                                    <td height="25" style="font-size:0 !important; line-height:0 !important;"></td>
+                                  </tr>
+                                  <tr>
+                                    <td valign="top" align="center" style="font-family: Arial, Helvetica, sans-serif; font-size:13px; line-height:18px; color:#000000; text-transform:none; text-align: center;" mc:edit="cont10"><p style="text-align: center;"><strong>JOIN the&nbsp;<a href="http://www.wildculture.com/content/register?utm_source=brevo&utm_campaign=Wild Culture Sunday Edition April 19 2020&utm_medium=email" target="_blank">MAILING LIST</a></strong><br>
+Like our <a href="https://www.facebook.com/WildCultureOnline?utm_source=brevo&utm_campaign=Wild Culture Sunday Edition April 19 2020&utm_medium=email" target="_blank">FACEBOOK</a> page<br>
+Follow us on <a href="https://twitter.com/Wild_Culture?utm_source=brevo&utm_campaign=Wild Culture Sunday Edition April 19 2020&utm_medium=email" target="_blank">Twitter</a><br>
+<br>
+Like what we do?<br>
+<a href="https://www.wildculture.com/article/donate-help-wild-culture-flourish/1617?utm_source=brevo&utm_campaign=Wild Culture Sunday Edition April 19 2020&utm_medium=email" target="_blank">PLEASE</a><a href="https://www.wildculture.com/article/donate-help-wild-culture-flourish/1617?utm_source=brevo&utm_campaign=Wild Culture Sunday Edition April 19 2020&utm_medium=email" target="_blank"> DONATE HERE</a><a href="https://www.wildculture.com/article/donate-help-wild-culture-flourish/1617?utm_source=brevo&utm_campaign=Wild Culture Sunday Edition April 19 2020&utm_medium=email">.</a></p>
+</td>
+                                  </tr>
+                                  <tr>
+                                </table></td>
+                              <td width="55" style="font-size:0 !important; line-height:0 !important;"></td>
+                            </tr>
+                          </table></td>
+                      </tr>
+                    </table></td>
+                </tr>
+                <tr>
+                  <td height="25" style="font-size:0 !important; line-height:0 !important;"></td>
+                </tr>
+                <tr>
+                  <td align="center" valign="middle"><a href="http://www.wildculture.com/?utm_source=brevo&utm_campaign=Wild Culture Sunday Edition April 19 2020&utm_medium=email" target="_blank"><img mc:edit="logo" style=" max-width:184px; display:inline-block; font-size:0px; line-height:0px; border:0px;" src="https://gallery.mailchimp.com/3ac161a09ec4fd64736cfc5ac/images/377811dc-b832-43be-8f7d-5eb8ef4b9c68.jpg" width="184" alt="Logo"></a></td>
+                </tr>
+                <tr>
+                  <td height="25" style="font-size:0 !important; line-height:0 !important;"></td>
+                </tr>
+                <tr>
+                  <td valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+                        <td valign="top" align="center" style="font-family: Arial, Helvetica, sans-serif; font-size:13px; line-height:18px; color:#000000; text-transform:none; text-align: center; padding-left:15px; padding-right:15px;" mc:edit="cont011">The Society for Preservation of Wild Culture. Copyright @2020<br>
+. All rights reserved<br>
+Our mailing address is:&nbsp;<a href="mailto:journal@wildculture.com" style="color:#000000; text-decoration:none;">journal@wildculture.com</a><br>
+<br>
+Twig letters by copperewe.com</td>
+                      </tr>
+                    </table></td>
+                </tr>
+                <tr>
+                  <td height="35" style="font-size:0 !important; line-height:0 !important;"></td>
+                </tr>
+              </table></td>
+          </tr>
+        </table></td>
+    </tr>
+  </table>
+</center>
+</body>
+</html>
